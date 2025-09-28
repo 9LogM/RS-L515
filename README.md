@@ -1,4 +1,4 @@
-# RS-L515
+# RS-L515-Docker
 
 This project provides a containerized ROS 2 solution for publishing 3D point cloud and sensor data from an Intel RealSense L515 camera.
 
