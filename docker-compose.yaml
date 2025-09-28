@@ -1,0 +1,12 @@
+services:
+  l515-pub:
+    build: .
+    container_name: l515-pub
+    privileged: true
+    tty: true
+    environment:
+      - DISPLAY=$DISPLAY
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /dev:/dev
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
